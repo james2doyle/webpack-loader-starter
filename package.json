@@ -1,0 +1,40 @@
+{
+  "name": "webpack-loader-starter",
+  "version": "1.0.0",
+  "description": "A starting point for creating Webpack loaders based on the tutorial from the Webpack site",
+  "keywords": ["webpack", "loader", "starter", "boilerplate", "template", "scaffold"],
+  "main": "./dist/loader.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir dist",
+    "test": "jest"
+  },
+  "engines": {
+    "node": "~13"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/james2doyle/webpack-loader-starter"
+  },
+  "author": "James Doyle <james2doyle@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/runtime": "^7.8.7",
+    "babel-jest": "^25.1.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^25.1.0",
+    "memory-fs": "^0.5.0",
+    "webpack": "^4.42.0"
+  },
+  "dependencies": {
+    "loader-utils": "^1.4.0",
+    "schema-utils": "^2.6.5"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

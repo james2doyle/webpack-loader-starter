@@ -4,9 +4,9 @@ const { getOptions } = require('loader-utils');
 const schema = {
   type: 'object',
   properties: {
-    // name: {
-    //   type: 'string'
-    // }
+    name: {
+      type: 'string'
+    }
   }
 };
 

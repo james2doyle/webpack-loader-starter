@@ -10,7 +10,7 @@ const schema = {
   }
 };
 
-module.exports = function loader(source) {
+module.exports = function exampleLoader(source) {
   const callback = this.async();
 
   const options = getOptions(this);

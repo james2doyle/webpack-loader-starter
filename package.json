@@ -2,7 +2,14 @@
   "name": "webpack-loader-starter",
   "version": "1.0.0",
   "description": "A starting point for creating Webpack loaders based on the tutorial from the Webpack site",
-  "keywords": ["webpack", "loader", "starter", "boilerplate", "template", "scaffold"],
+  "keywords": [
+    "webpack",
+    "loader",
+    "starter",
+    "boilerplate",
+    "template",
+    "scaffold"
+  ],
   "main": "./dist/loader.js",
   "scripts": {
     "build": "./node_modules/.bin/babel src --out-dir dist",
@@ -17,7 +24,6 @@
     "url": "https://github.com/james2doyle/webpack-loader-starter"
   },
   "author": "James Doyle <james2doyle@gmail.com>",
-  "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.7",
